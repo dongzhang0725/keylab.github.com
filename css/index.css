@@ -64,6 +64,9 @@ background-color:#336699;}
 .tr1 {background:url("../images/box_bg1.jpg") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:40px;}
 .tr1 .td2 {padding-left:15px; font-size:16px; font-weight:bold; color:#000; text-align: left; background:url("../images/box_bg2.gif") no-repeat -10px 0px;}
 .table1 {border:#e6e6e6 solid 1px; background-color:#FFF; width:100%; height:100%; border-radius: 3px}
+/*给表格所有东西加上边框*/
+.table2, .table2 tr td { border:2px solid #e6e6e6;}
+.table2 {border:1px; border-collapse: collapse; margin-bottom: 10px}
 
 /*研究员*/
 .td5 {padding-left:10px; text-align:left;font-size: 14px; background:url(../images/ico_01.jpg) left no-repeat;}
