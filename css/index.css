@@ -85,6 +85,9 @@ background-color:#336699;}
 .td4 {padding-left: 20px; padding-right: 20px}
 .td4 p {font-size: 16px;text-align: justify;line-height: 160%;margin: 0.5em 0;}
 
+/*研究队伍照片*/
+.td6 {text-align:center}
+
 /*照片的名字*/
 .td-name {padding:5px 0px 10px 0px}
 .td-name a {text-decoration: none}
