@@ -1,0 +1,90 @@
+body{margin:0px; padding:0px; font-size:12px; font-family:"宋体"; color:#000}
+A {
+	FONT-SIZE: 12px; COLOR: #3f3f3f; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #eb0000
+}
+A.pageFoot {
+	COLOR: #7f8080; TEXT-DECORATION: none
+}
+A.pageFoot:hover {
+	COLOR: #eb0000
+}
+/*菜单栏开始*/
+.menu
+{
+display: block;
+line-height: 34px;
+width: 100%;
+height: 100%;
+border: 1px solid #d6ebf5;
+text-decoration:none;
+color:#08c;
+padding: 0em 0em;
+font-size:16px;
+font-weight:bold;
+border-radius: 5px;
+}
+.menu_active, .menu_active:hover, .menu:hover{
+display: block;
+line-height: 34px;
+width: 100%;
+height: 100%;
+border: 1px solid #d6ebf5;
+text-decoration:none;
+color:white;
+padding: 0em 0em;
+font-size:16px;
+font-weight:bold;
+border-radius: 5px;
+background-color:#336699;}
+
+
+
+.nav td {width:136; text-align: center; border-right:1px solid white;}
+/*这里把通知公告那个单元格的高度放高一些*/
+.font1{font-family:"微软雅黑"; font-size:21px; color:#1D7FC6; font-weight:bold;} 
+.a3 {color:#1D7FC6; font-size:14px; font-weight:bold;}
+/*侧栏题目*/
+.font2{font-family:"微软雅黑"; font-size:18px; color:#fff; background-color:#336699; height: 50px}
+/*侧栏的背景*/
+.td1 {border-bottom:#D4E5C5 solid 1px;}
+/*侧栏的选项*/
+.a1 {display: block; line-height: 45px; width: 100%; height: 100%;}
+.a1:link {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
+.a1:visited {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
+.a1:hover {font-size:14px;text-decoration:underline;color:#6BA42F;font-weight:bold;}
+.a1_active {display: block; line-height: 45px; width: 100%; height: 100%;font-size:14px;text-decoration:none;color:#000;font-weight:bold;background-color:#F0F6EA}
+/*侧栏边框*/
+.left_bg {border:#e6e6e6 solid 1px; background-color:#FFF;border-radius: 3px}
+
+
+/*方框题目*/
+.tr1 {background:url("../images/box_bg1.jpg") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:40px;}
+.tr1 .td2 {padding-left:15px; font-size:16px; font-weight:bold; color:#000; text-align: left; background:url("../images/box_bg2.gif") no-repeat -10px 0px;}
+.table1 {border:#e6e6e6 solid 1px; background-color:#FFF; width:100%; height:100%; border-radius: 3px}
+
+/*研究员*/
+.td5 {padding-left:10px; text-align:left;font-size: 14px; background:url(../images/ico_01.jpg) left no-repeat;}
+/*介绍字体*/
+.td4 {font-size: 14px; text-align: left}
+/*研究员下面的横线*/
+.tr2 {background:url(../images/bg4.jpg) bottom repeat-x; height:26px}
+/*新闻下面的横线*/
+.tr3 {background:url(../images/bg4.jpg) bottom repeat-x; height:30px}
+.name {text-decoration: none; font-size: 13px}
+
+.a-x-1 {padding-left:10px; text-align:left;font-size: 13px; background:url(../images/bg5.jpg) left no-repeat; text-decoration: none; height: 50px;}
+/*论文*/
+.a2 {text-decoration: none}
+
+.end-td {text-align: center; width:1095px; background:url(../images/bg1.jpg) top repeat-x;} 
+
+/*管理团队*/
+.td4 {padding-left: 20px; padding-right: 20px}
+.td4 p {font-size: 16px;text-align: justify;line-height: 160%;margin: 0.5em 0;}
+
+/*照片的名字*/
+.td-name {padding:5px 0px 10px 0px}
+.td-name a {text-decoration: none}
