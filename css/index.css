@@ -61,28 +61,29 @@ background-color:#336699;}
 
 
 /*方框题目*/
-.tr1 {background:url("../images/box_bg1.jpg") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:40px;}
+.tr1 {background:url("../images/box_bg1.png") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:40px;}
 .tr1 .td2 {padding-left:15px; font-size:16px; font-weight:bold; color:#000; text-align: left; background:url("../images/box_bg2.gif") no-repeat -10px 0px;}
 .table1 {border:#e6e6e6 solid 1px; background-color:#FFF; width:100%; height:100%; border-radius: 3px}
 /*给表格所有东西加上边框*/
 .table2, .table2 tr td, .table2 tr th { border:2px solid #e6e6e6;}
 .table2 {border:1px; border-collapse: collapse; margin-bottom: 10px}
+/*.timg img {transform: scale(0.8);}*/
 
 /*研究员*/
-.td5 {padding-left:10px; text-align:left;font-size: 14px; background:url(../images/ico_01.jpg) left no-repeat;}
+.td5 {padding-left:10px; text-align:left;font-size: 14px; background:url(../images/ico_01.png) left no-repeat;}
 /*介绍字体*/
 .td4 {font-size: 14px; text-align: left}
 /*研究员下面的横线*/
-.tr2 {background:url(../images/bg4.jpg) bottom repeat-x; height:26px}
+.tr2 {background:url(../images/bg4.png) bottom repeat-x; height:26px}
 /*新闻下面的横线*/
-.tr3 {background:url(../images/bg4.jpg) bottom repeat-x; height:30px}
+.tr3 {background:url(../images/bg4.png) bottom repeat-x; height:30px}
 .name {text-decoration: none; font-size: 13px}
 
-.a-x-1 {padding-left:10px; text-align:left;font-size: 13px; background:url(../images/bg5.jpg) left no-repeat; text-decoration: none; height: 50px;}
+.a-x-1 {padding-left:10px; text-align:left;font-size: 13px; background:url(../images/bg5.png) left no-repeat; text-decoration: none; height: 50px;}
 /*论文*/
 .a2 {text-decoration: none}
 
-.end-td {text-align: center; width:1095px; background:url(../images/bg1.jpg) top repeat-x;} 
+.end-td {text-align: center; width:1095px; background:url(../images/bg1.png) top repeat-x;} 
 
 /*管理团队*/
 .td4 {padding-left: 20px; padding-right: 20px}
