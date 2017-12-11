@@ -44,24 +44,24 @@ background-color:#336699;}
 
 .nav td {width:136; text-align: center; border-right:1px solid white;}
 /*这里把通知公告那个单元格的高度放高一些*/
-.font1{font-family:"微软雅黑"; font-size:21px; color:#1D7FC6; font-weight:bold;} 
+.font1{font-family:"宋体"; font-size:21px; color:#1D7FC6; font-weight:bold;} 
 .a3 {color:#1D7FC6; font-size:14px; font-weight:bold;}
 /*侧栏题目*/
-.font2{font-family:"微软雅黑"; font-size:18px; color:#fff; background-color:#336699; height: 50px}
+.font2{font-family:"宋体"; font-size:18px; color:#fff; background-color:#336699; height: 45px}
 /*侧栏的背景*/
 .td1 {border-bottom:#D4E5C5 solid 1px;}
 /*侧栏的选项*/
-.a1 {display: block; line-height: 45px; width: 100%; height: 100%;}
+.a1 {display: block; line-height: 40px; width: 100%; height: 100%;}
 .a1:link {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
 .a1:visited {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
 .a1:hover {font-size:14px;text-decoration:underline;color:#6BA42F;font-weight:bold;}
-.a1_active {display: block; line-height: 45px; width: 100%; height: 100%;font-size:14px;text-decoration:none;color:#000;font-weight:bold;background-color:#F0F6EA}
+.a1_active {display: block; line-height: 40px; width: 100%; height: 100%;font-size:14px;text-decoration:none;color:#000;font-weight:bold;background-color:#F0F6EA}
 /*侧栏边框*/
 .left_bg {border:#e6e6e6 solid 1px; background-color:#FFF;border-radius: 3px}
 
 
 /*方框题目*/
-.tr1 {background:url("../images/box_bg1.png") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:40px;}
+.tr1 {background:url("../images/box_bg1.png") repeat; background-size: 100% 100%; border:#e6e6e6 solid 1px; height:35px;}
 .tr1 .td2 {padding-left:15px; font-size:16px; font-weight:bold; color:#000; text-align: left; background:url("../images/box_bg2.gif") no-repeat -10px 0px;}
 .table1 {border:#e6e6e6 solid 1px; background-color:#FFF; width:100%; height:100%; border-radius: 3px}
 /*给表格所有东西加上边框*/
@@ -83,7 +83,7 @@ background-color:#336699;}
 /*论文*/
 .a2 {text-decoration: none}
 
-.end-td {text-align: center; width:1095px; background:url(../images/bg1.png) top repeat-x;} 
+.end-td {text-align: center; width:1000px; background:url(../images/bg1.png) top repeat-x;} 
 
 /*管理团队*/
 .td4 {padding-left: 20px; padding-right: 20px}
@@ -98,3 +98,5 @@ background-color:#336699;}
 .td-name a {text-decoration: none}
 
 .ul1 {list-style-type:none}
+
+.lj, .lj:hover {font-size: 16px; color: rgb(58, 177, 224)}
