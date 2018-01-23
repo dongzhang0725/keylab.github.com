@@ -83,7 +83,7 @@ background-color:#336699;}
 /*论文*/
 .a2 {text-decoration: none}
 
-.end-td {text-align: center; width:1000px; background:url(../images/bg1.png) top repeat-x;} 
+.end-td {text-align: center; width:1000px; background:url(../images/bg1.png) top repeat-x; background-color: #EEEEEE;} 
 
 /*管理团队*/
 .td4 {padding-left: 20px; padding-right: 20px}
