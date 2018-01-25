@@ -1,4 +1,4 @@
-body{margin:0px; padding:0px; font-size:12px; font-family:"宋体"; color:#000}
+body{margin:0px; padding:0px; font-size:12px; font-family:"宋体"; color:#000; background-color:rgb(244, 248, 240)}
 A {
 	FONT-SIZE: 12px; COLOR: #3f3f3f; TEXT-DECORATION: none
 }
@@ -11,6 +11,9 @@ A.pageFoot {
 A.pageFoot:hover {
 	COLOR: #eb0000
 }
+
+.topTable {background-color:white}
+
 /*菜单栏开始*/
 .menu
 {
@@ -100,3 +103,14 @@ background-color:#336699;}
 .ul1 {list-style-type:none}
 
 .lj, .lj:hover {font-size: 16px; color: rgb(58, 177, 224)}
+
+/*研究进展名字*/
+.title {
+	font-family: "微软雅黑";
+	font-size: 16pt;
+	line-height: 22px;
+	font-weight: 600;
+	color: #0041b9;
+}
+
+.belowTitle {font-family: "微软雅黑"; font-size: 10pt;}
