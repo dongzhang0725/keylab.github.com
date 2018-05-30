@@ -1,9 +1,9 @@
 body{margin:0px; padding:0px; font-size:12px; font-family:"宋体"; color:#000; background-color:rgb(244, 248, 240)}
 A {
-	FONT-SIZE: 12px; COLOR: #3f3f3f; TEXT-DECORATION: none
+	COLOR: #3f3f3f; TEXT-DECORATION: none
 }
 A:hover {
-	FONT-SIZE: 12px; COLOR: #eb0000
+	COLOR: #eb0000
 }
 A.pageFoot {
 	COLOR: #7f8080; TEXT-DECORATION: none
@@ -114,3 +114,67 @@ background-color:#336699;}
 }
 
 .belowTitle {font-family: "微软雅黑"; font-size: 10pt;}
+
+.rounded-list {
+	counter-reset: li; /* 创建一个计数器 */
+	list-style: none; /* 清除列表默认的编码*/
+	*list-style: decimal; /* 让IE6/7具有默认的编码 */
+	font: 15px 'trebuchet MS', 'lucida sans';
+	margin-bottom: 4em;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	padding-left:2cm;
+	padding-right:2cm;
+}
+
+.rounded-list a {
+	position: relative;
+	display: block;
+	padding: 0.4em 0.4em 0.4em 2em;
+	*padding: 0.4em;/*for ie6/7*/
+	margin: 0.5em 0;
+	background: #ddd;
+	color: #444;
+	text-decoration: none;
+	/*CSS3属性*/
+	border-radius: 0.3em;/*制作圆角*/
+	/* transition动画效果*/
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.rounded-list a:hover {
+	background: #eee;
+}
+.rounded-list a:hover::before {
+	/*悬停时旋转编码*/
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.rounded-list a::before {
+	
+	content: counter(li);
+	counter-increment: li;
+	
+	position: absolute;
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: #87ceeb;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: 0.3em solid #fff;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
